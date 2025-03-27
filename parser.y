@@ -20,7 +20,7 @@ ELEMENTS: /*empty*/ | NUMBER | NUMBER COMMA ELEMENTS;
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {  // Checking if a file was provided
-        printf("Usage: %s <input_file>\n", argv[0]);
+        printf("Usage: %s. + <input_file>\n", argv[0]);
         return 1;
     }
 
